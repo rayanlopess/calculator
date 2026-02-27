@@ -1,0 +1,25 @@
+body{
+    background-color: #1a202c;
+}
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-escolha{
+    background-color: #2d3748;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: .3s ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.escolhas{
+    background-color: #4a5568;
+    height: 40%;
+    
+}
