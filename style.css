@@ -20,6 +20,21 @@ body{
 }
 .escolhas{
     background-color: #4a5568;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     height: 40%;
-    
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    max-width: 90%;
+    color: #f5f5f5;
+}
+.escolhas:hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.005);
+    scale: 1.005;
+    cursor: pointer;
+}
+.escolhas:active{
+    transition: .1s ease-in-out;
+    transform: scale(0.99);
+    scale: 0.99;
 }
